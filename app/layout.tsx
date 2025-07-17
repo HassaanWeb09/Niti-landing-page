@@ -34,6 +34,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
       >
+        
+<header className="p-4">
+  <a href="/">
+    <img src="/images/logo_transparent.png" alt="Logo" width="160" height="160" className="mx-auto" />
+  </a>
+</header>
+
         {children}
       </body>
     </html>
