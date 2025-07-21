@@ -357,7 +357,20 @@ export default function Home() {
             <p className="text-gray-400"> 2024 Niti Vohra. All rights reserved.</p>
           </div>
         </div>
-      </footer>
+      
+          <div className="flex space-x-4 mt-4">
+            <a href="https://www.instagram.com/coachniti/" target="_blank" rel="noopener noreferrer">
+              <img src="/instagram-icon.svg" alt="Instagram" className="w-6 h-6" />
+            </a>
+            <a href="https://web.facebook.com/CoachNitiVohra/" target="_blank" rel="noopener noreferrer">
+              <img src="/facebook-icon.svg" alt="Facebook" className="w-6 h-6" />
+            </a>
+            <a href="https://www.linkedin.com/in/coach-niti/" target="_blank" rel="noopener noreferrer">
+              <img src="/linkedin-icon.svg" alt="LinkedIn" className="w-6 h-6" />
+            </a>
+          </div>
+
+        </footer>
 
       <style jsx>{`
         @keyframes fadeInUp {
