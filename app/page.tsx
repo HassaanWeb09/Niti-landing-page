@@ -14,20 +14,7 @@ export default function Home() {
     const timer = setTimeout(() => {
       setShowCtaPulse(true);
     }, 2500);
-    return (
-
-<div style={{ display: 'flex', justifyContent: 'flex-end', gap: '10px', marginBottom: '1rem' }}>
-  <a href="https://www.instagram.com/coachniti/" target="_blank" rel="noopener noreferrer">
-    <img src="/images/instagram.png" alt="Instagram" style={{ height: '24px' }} />
-  </a>
-  <a href="https://www.linkedin.com/in/coach-niti/" target="_blank" rel="noopener noreferrer">
-    <img src="/images/linkedin.png" alt="LinkedIn" style={{ height: '24px' }} />
-  </a>
-  <a href="https://web.facebook.com/CoachNitiVohra/" target="_blank" rel="noopener noreferrer">
-    <img src="/images/facebook.png" alt="Facebook" style={{ height: '24px' }} />
-  </a>
-</div>
-) => clearTimeout(timer);
+    return () => clearTimeout(timer);
   }, []);
 
   const toggleFaq = (index: number) => {
@@ -54,19 +41,6 @@ export default function Home() {
   ];
 
   return (
-
-<div style={{ display: 'flex', justifyContent: 'flex-end', gap: '10px', marginBottom: '1rem' }}>
-  <a href="https://www.instagram.com/coachniti/" target="_blank" rel="noopener noreferrer">
-    <img src="/images/instagram.png" alt="Instagram" style={{ height: '24px' }} />
-  </a>
-  <a href="https://www.linkedin.com/in/coach-niti/" target="_blank" rel="noopener noreferrer">
-    <img src="/images/linkedin.png" alt="LinkedIn" style={{ height: '24px' }} />
-  </a>
-  <a href="https://web.facebook.com/CoachNitiVohra/" target="_blank" rel="noopener noreferrer">
-    <img src="/images/facebook.png" alt="Facebook" style={{ height: '24px' }} />
-  </a>
-</div>
-
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="bg-white shadow-sm sticky top-0 z-50">
