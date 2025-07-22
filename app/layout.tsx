@@ -34,6 +34,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
       >
+        <header className="w-full flex justify-end items-center p-4 space-x-4">
+          <a href="https://www.instagram.com/coachniti/" target="_blank">
+            <img src="/images/instagram.png" alt="Instagram" className="w-6 h-6" />
+          </a>
+          <a href="https://www.linkedin.com/in/coach-niti/" target="_blank">
+            <img src="/images/linkedin.png" alt="LinkedIn" className="w-6 h-6" />
+          </a>
+          <a href="https://web.facebook.com/CoachNitiVohra/" target="_blank">
+            <img src="/images/facebook.png" alt="Facebook" className="w-6 h-6" />
+          </a>
+        </header>
         {children}
       </body>
     </html>
